@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="login">
+        <img src="./miss.png"height="50px">
+    </div>
+        <ul>
+            <li><a href="index.html">index</a></li>
+            <li><a href="#">login</a></li>
+            <a class="nav-link" href="#">webside <span class="sr-only">(current)</span></a>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html"></a>about us</li>
+            <li><a href="contact.html"></a>contact us</li>
+            <li><a href="service.html"></a>service</li>
+        </ul>
+    </nav>
+    
+    <div class="center">
+    <h1>
+        login
+      </h1>
+      <input type="text" placeholder="enter your email" id="login_email">
+      <input type="password" placeholder="password" id="login_password">
+      <button type="submit">login</button>
+      <button onclick="logout()">logout</button>
+    </form>
+
+<p>Don't have an account?<a href="home.html" class="register"> users Detail school webside</a></p>
+</div>
+        </form> 
+        <script src="app.js" defer></script>
+  <script src="firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-app.js"></script>
+  <script src= "https://www.gstatic.com/firebasejs/8.2.9/firebase-auth.js"></script> 
+  <!-- <script src="https://www.gstatic.com/firebasejs/8.2.9/firebase-firestore.js"></script>  -->
+ 
+
+  
+ 
+
+  <script>
+      
+const firebaseConfig = {
+apiKey: "AIzaSyA6-wtWv2ZrjhnAIpchOu62sFp-8OicZ1Y",
+authDomain: "test2-6281c.firebaseapp.com",
+projectId: "test2-6281c",
+storageBucket: "test2-6281c.appspot.com",
+messagingSenderId: "387866453919",
+appId: "1:387866453919:web:d5cf7305797a3d0e36ffaa",
+measurementId: "G-7XV2BJ4QQ8"
+}
+
+
+firebase.initializeApp(firebaseConfig);
+  
+</script>
+</body>
+</html>

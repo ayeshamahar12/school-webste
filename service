@@ -1,0 +1,44 @@
+!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .itone:hover{
+            transform: scale(1.2);
+            background-color:white;
+            box-shadow: 1px 2px 2px;
+            cursor: pointer;
+            } 
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="login">
+            <img src="./Picture miss.png" height="50px">
+        </div>
+            <ul>
+              <a class="nav-link" href="index.html">index</a>
+              <a class="nav-link" href="login.html">login</a>
+              <a class="nav-link" href="#">webside <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">home</a>
+              <a class="nav-link" href="about.html">About us</a>
+              <a class="nav-link" href="contact.html">Contact us</a>
+              <a class="nav-link" href="#">service</a>
+            </ul>
+        </nav>
+              
+    <h1><marquee >wellcome to jeejal amaan bublic school <img src="./miss.png"width="50px" ></marquee> School Webside</h1> 
+    
+    
+    <div class="itone">
+        <img src="./Pictureddd.png"alt="" height="300px" width="500px"margin-top="200px">
+        <img src="./Pictureeee.png"alt="" height="300px" width="500px"margin-top="200px">
+        <img src="./Picturefff.png"alt="" height="300px" width="500px"margin-top="200px">
+        <img src="./Pictureggg.png"alt="" height="300px" width="500px"margin-top="200px">
+    
+      </div>
+</body>
+</html>
